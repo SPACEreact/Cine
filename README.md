@@ -1,27 +1,23 @@
-# Framecraft Composition Kit
+# Framecraft / Cine
 
-A responsive cinematic composition sales page with a free prompt sample, six creative controls, product contents and links to Knowledge, Atlas of Looks and Prompt Studio.
+A minimalist three-part website: examples, demo, contact.
 
-First-edition price: ₹499. Checkout is not connected yet; the page clearly shows that purchases are unavailable.
+The public website lives in `site/`, with original supplied showcase media in `site/media/`. No build step or dependencies are needed.
 
-## Website files
+## Experience
 
-The complete public website is in `site/`. Open `site/index.html` locally or serve that directory with any static web server. No build or dependencies are needed. The generated hero image is embedded as a JPEG inside `hero.svg` so every asset stays within the repository.
+- Two muted films play when at least 35% of their element is visible and pause off screen. Native controls remain available. Reduced-motion preferences disable automatic playback.
+- Seven supplied cosmic image examples.
+- A subject-first prompt demo with cinematic, monochrome and painterly looks. It composes text; it does not generate an image.
+- Live iframe sneak peeks of Knowledge and Atlas of Looks, with direct links to both.
+- Purchase enquiries go to `himanshuworkofficial@gmail.com` through an editable email draft opened in the visitor's mail app. The page does not send email or collect payments.
 
-The paid guide, buyer ZIP, launch email drafts and private account details are not stored in this public repository.
+The artwork screenshot supplied as a style reference is not displayed as the creator's own portfolio work. The paid buyer ZIP remains outside this public repository.
 
-## GitHub Pages
+## Hosting
 
-The included workflow publishes `site/` after pushes to `main` and can also be run manually. In **Settings → Pages → Build and deployment**, choose **GitHub Actions** as the source. Once deployment succeeds, the site should be available at https://spacereact.github.io/Cine/.
+The GitHub Pages workflow publishes `site/` on pushes to `main`.
 
-## Opening sales
+Website: https://spacereact.github.io/Cine/
 
-Replace the pending checkout notice in `site/index.html` with the verified product checkout link after payment and digital delivery are configured. Keep the free sample public and deliver the buyer ZIP through the checkout provider.
-
-## Companion resources
-
-- https://spacereact.github.io/knowledge/
-- https://spacereact.github.io/atlas-of-looks/
-- https://framecraft-prompt-studio.kishansinghb768.chatgpt.site
-
-These are separate existing resources, not exclusive paid access.
+First-edition kit price: ₹499. Payment and delivery details are handled through the contact email until checkout is connected.
